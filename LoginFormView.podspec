@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LoginFormView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LoginFormView.'
+  s.summary          = 'customize layer for pwd and user textinput.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/roc7zhang@aliyun.com/LoginFormView'
+  s.homepage         = 'https://github.com/roc0zhang/LoginFormView/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'roc7zhang@aliyun.com' => 'rc.6688@hotmail.com' }
-  s.source           = { :git => 'https://github.com/roc7zhang@aliyun.com/LoginFormView.git', :tag => s.version.to_s }
+  s.author           = { 'roczhang' => 'rc.6688@hotmail.com' }
+  s.source           = { :git => 'https://github.com/roc0zhang/LoginFormView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+  s.requires_arc = true 
   s.source_files = 'LoginFormView/Classes/**/*'
+  s.dependency 'Masonry','~>1.1.0'
+  s.frameworks = 'UIKit'
   
   # s.resource_bundles = {
   #   'LoginFormView' => ['LoginFormView/Assets/*.png']

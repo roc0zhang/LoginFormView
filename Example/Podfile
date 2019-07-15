@@ -4,7 +4,7 @@ platform :ios, '8.0'
 
 target 'LoginFormView_Example' do
   pod 'LoginFormView', :path => '../'
-
+pod 'Masonry'
   target 'LoginFormView_Tests' do
     inherit! :search_paths
 

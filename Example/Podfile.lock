@@ -5,14 +5,17 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - LoginFormView (0.1.0)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
   - LoginFormView (from `../`)
+  - Masonry
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FBSnapshotTestCase
+    - Masonry
 
 EXTERNAL SOURCES:
   LoginFormView:
@@ -21,7 +24,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   LoginFormView: cc96232ba469e44ebf37e3e5d59822b38884623a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 80869d2b5bcdb90d19c8287056efdd7f4330f0b0
+PODFILE CHECKSUM: 785036a946ed98178dd4d63b16e87f2400111ec2
 
 COCOAPODS: 1.7.3

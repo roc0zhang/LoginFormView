@@ -10,8 +10,3 @@
 #endif
 #endif
 
-#import "LoginFormView.h"
-
-FOUNDATION_EXPORT double LoginFormViewVersionNumber;
-FOUNDATION_EXPORT const unsigned char LoginFormViewVersionString[];
-
