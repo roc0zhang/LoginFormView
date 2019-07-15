@@ -60,10 +60,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7528EFB08B7B583A874A06D7 /* Pods_LoginFormView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginFormView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92019E14BC721DD7FD05C8AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		984B1D2FEF425C7AE7737989 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		92019E14BC721DD7FD05C8AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		984B1D2FEF425C7AE7737989 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9A32E9018CACF44248779981 /* Pods-LoginFormView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginFormView_Tests.release.xcconfig"; path = "Target Support Files/Pods-LoginFormView_Tests/Pods-LoginFormView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B3C2A9C3713C1DE00F26A1B4 /* LoginFormView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LoginFormView.podspec; path = ../LoginFormView.podspec; sourceTree = "<group>"; };
+		B3C2A9C3713C1DE00F26A1B4 /* LoginFormView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LoginFormView.podspec; path = ../LoginFormView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B97410976296725658240AA8 /* Pods-LoginFormView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginFormView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LoginFormView_Tests/Pods-LoginFormView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B9BCF7C99ADC8B5542BD141E /* Pods-LoginFormView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginFormView_Example.debug.xcconfig"; path = "Target Support Files/Pods-LoginFormView_Example/Pods-LoginFormView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E95F1D2E9CE9096481056FF1 /* Pods-LoginFormView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginFormView_Example.release.xcconfig"; path = "Target Support Files/Pods-LoginFormView_Example/Pods-LoginFormView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				B97410976296725658240AA8 /* Pods-LoginFormView_Tests.debug.xcconfig */,
 				9A32E9018CACF44248779981 /* Pods-LoginFormView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

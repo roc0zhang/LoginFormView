@@ -1,0 +1,22 @@
+{
+  "name": "LoginFormView",
+  "version": "0.1.0",
+  "summary": "A short description of LoginFormView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/roc7zhang@aliyun.com/LoginFormView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "roc7zhang@aliyun.com": "rc.6688@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/roc7zhang@aliyun.com/LoginFormView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LoginFormView/Classes/**/*"
+}
