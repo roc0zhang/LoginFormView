@@ -30,8 +30,21 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
   s.requires_arc = true 
-  s.source_files = 'LoginFormView/Classes/**/*'
-  s.dependency 'Masonry','~>1.1.0'
+  # s.source_files = 'LoginFormView/Classes/**/*'
+  # s.dependency 'Masonry','~>1.1.0'
+  s.subspec 'LoginView' do |login|
+      login.source_files = 'LoginFormView/Classes/Login/**/*'
+      login.public_header_files = 'LoginFormView/Classes/Login/**/*.h'
+      login.dependency 'Masonry','~>1.1.0' 
+  end
+
+  s.subspec 'TestView' do |test|
+      test.source_files = 'LoginFormView/Classes/Test/**/*'
+      test.public_header_files = 'LoginFormView/Classes/Test/**/*.h'
+
+      test.dependency 'AFNetworking', '~> 2.3'
+  end
+
   s.frameworks = 'UIKit'
   
   # s.resource_bundles = {

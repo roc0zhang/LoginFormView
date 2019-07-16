@@ -1,22 +1,29 @@
 {
   "name": "LoginFormView",
   "version": "0.1.0",
-  "summary": "A short description of LoginFormView.",
+  "summary": "customize layer for pwd and user textinput.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/roc7zhang@aliyun.com/LoginFormView",
+  "homepage": "https://github.com/roc0zhang/LoginFormView/",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "roc7zhang@aliyun.com": "rc.6688@hotmail.com"
+    "roczhang": "rc.6688@hotmail.com"
   },
   "source": {
-    "git": "https://github.com/roc7zhang@aliyun.com/LoginFormView.git",
+    "git": "https://github.com/roc0zhang/LoginFormView.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LoginFormView/Classes/**/*"
+  "requires_arc": true,
+  "source_files": "LoginFormView/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+      "~>1.1.0"
+    ]
+  },
+  "frameworks": "UIKit"
 }

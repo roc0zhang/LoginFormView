@@ -4,7 +4,8 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LoginFormView (0.1.0)
+  - LoginFormView (0.1.0):
+    - Masonry (~> 1.1.0)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
@@ -23,7 +24,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LoginFormView: cc96232ba469e44ebf37e3e5d59822b38884623a
+  LoginFormView: 4b78973b0e62405c2e581cb7c717ab38511ddfd7
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 785036a946ed98178dd4d63b16e87f2400111ec2

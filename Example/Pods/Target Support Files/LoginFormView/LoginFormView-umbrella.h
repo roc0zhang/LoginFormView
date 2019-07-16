@@ -11,6 +11,7 @@
 #endif
 
 #import "LoginFormView.h"
+#import "TestView.h"
 
 FOUNDATION_EXPORT double LoginFormViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char LoginFormViewVersionString[];

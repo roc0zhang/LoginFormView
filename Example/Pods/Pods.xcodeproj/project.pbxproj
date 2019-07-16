@@ -9,64 +9,68 @@
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = A081F942C2085E6848F402E5F78FE9FA /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		054807EB7C88B2203D35070805178282 /* Pods-LoginFormView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69475061BBF1D05E96B03AA848570292 /* Pods-LoginFormView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C14DC0AB109ACBEFEEA858FD26775100 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF66FE785395C4D1DF40E16B498CF2C /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C43FB3EB5046CBB6DFC13074605633 /* ViewController+MASAdditions.m */; };
-		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E0542DACEF790346281E9B7E16B4E /* NSArray+MASAdditions.m */; };
-		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D0B131734D26DB5D5ACF1FAC08DD57 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0612F86D64CB5E1AB24F2F82F8693F06 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D0B131734D26DB5D5ACF1FAC08DD57 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F08FE71D8571D09299D206F541488C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9622FCB360DEC4256351F3BB2B53974E /* UIKit.framework */; };
+		0A69AA300802E95B58018C5BC05FA23C /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571D18C2E4315CA0EE50281AEB95D9C8 /* Masonry.framework */; };
+		0EE1E8BCDCD454C0AC52F3DB82573CF0 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 68EEB53888D9DC9DC5DF76F836F84C61 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DC998C1ADA91F21F291A591DCD77C8 /* UIApplication+StrictKeyWindow.m */; };
+		12D1178D901DE6B622D292E23F721D91 /* LoginFormView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3506560D215AD8DD838672FCBEC1975 /* LoginFormView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EE8B8BB5CFB179B4341911563BDB1B /* UIImage+Diff.m */; };
-		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AC2D6ADE1E9CD6614AAD12383D072A /* Masonry-dummy.m */; };
-		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 538E7F5350A389FCCF481A6BC30E7F72 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C7724D9BB5EAC090DCF3468FF6BEF246 /* MASViewAttribute.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1DF1791AD5AA72DFFD4CB94F5FA17F /* QuartzCore.framework */; };
+		2B2DF25719462338975604B6E2CFBF7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9622FCB360DEC4256351F3BB2B53974E /* UIKit.framework */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 7008DA1EBC7FB7F3D2EA4B3DA69F1A9E /* UIImage+Compare.m */; };
-		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE045E16493660ECF08D6AAE77D40E7 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 715C6EA125C5989AE7E784C322F959A0 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		307535449B8565EB07191565B81082F9 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C7724D9BB5EAC090DCF3468FF6BEF246 /* MASViewAttribute.m */; };
+		37D61CCBF03276F6E3715375E9E2C558 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C14DC0AB109ACBEFEEA858FD26775100 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AAE505CDE02E1303CBD12E3900928BB /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D768FD119E52E6722075A26AD98BB6C /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 71C17EEC81CA6EA4507350F059D58474 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		41EF9694B6A0C7CDA4E31FEBCDEB216C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CC279CEECA0C7336620CC664EF9F900C /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		414C574B0E5A0C5DB1D178F34FD3BF2D /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 538E7F5350A389FCCF481A6BC30E7F72 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41EF9694B6A0C7CDA4E31FEBCDEB216C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C659800879B63083DE392800723BE1 /* Foundation.framework */; };
+		4756D0AE4293F548104A85455B508BE9 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D67DD8092CC0CBE7E4208414CC17F77 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B6903EF915342E4287EB45CA7972227 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D26E0542DACEF790346281E9B7E16B4E /* NSArray+MASAdditions.m */; };
+		4ED4B07224FC49CD31768FB48ABB30AB /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE045E16493660ECF08D6AAE77D40E7 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50644D2D9D28315325DD8FB53E9258C0 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C56D9078204B2752922B4FC52C369A24 /* MASCompositeConstraint.m */; };
+		55DECC4B0D78C8B4DFAC65931FA8C581 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 94451514216018C16E3AF2F48DDBE55B /* MASConstraintMaker.m */; };
+		5C95A84917F601BF82E1B00A33557B5A /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A641AAEE41BE2CC63A32D0BAB67EC72 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DBFA936D17405716740BF4A24E21739 /* Pods-LoginFormView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F94665A774FB6E9A42313C65557FB /* Pods-LoginFormView_Tests-dummy.m */; };
-		691527B7B9E96ED84ACD90CEDA205DCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB92C40F45A891F20727C080472B2C76 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
+		632D9E4E5BFE0858CA0EA04CF3443E52 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 708FC20E70A5C162B340862E7114EE55 /* MASViewConstraint.m */; };
+		642A9D1297BE3FFE3B23B2BA232ADDD7 /* LoginFormView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1456CCF19325380C5B32E78DA9F09ED4 /* LoginFormView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD5C82799AB5A03561274DB41F07AC5 /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B9175410197094EABEA30B3B1CBF98 /* FBSnapshotTestCase-dummy.m */; };
-		6E7FA0429FDB78B57D4DE974778404F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		784DEC29DA8C4E2DF71EA172203071EC /* LoginFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA4F3D7141DD6042B9FC2FCFDE72D78 /* LoginFormView.m */; };
-		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 94451514216018C16E3AF2F48DDBE55B /* MASConstraintMaker.m */; };
-		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C56D9078204B2752922B4FC52C369A24 /* MASCompositeConstraint.m */; };
-		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CBCC842005CF485C7845B9169BBB0 /* MASLayoutConstraint.m */; };
+		6E7FA0429FDB78B57D4DE974778404F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C659800879B63083DE392800723BE1 /* Foundation.framework */; };
+		700B9933C11135EFB4C7A44DE0D639EA /* LoginFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF18DE736BA070A38DFECE8574A23F2F /* LoginFormView.m */; };
+		73BEA994575E73CD20DB9E293FB0628F /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D9982EBC9A6A60786935962A58A324E1 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7646BF81BA7D08CCF9290F118820247C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C43FB3EB5046CBB6DFC13074605633 /* ViewController+MASAdditions.m */; };
+		83043460C3755A7A8ED273540D901FDA /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C99CBCC842005CF485C7845B9169BBB0 /* MASLayoutConstraint.m */; };
+		83E959D996D86550D9EB19CEDBBF3117 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 715C6EA125C5989AE7E784C322F959A0 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8758B0AA8F2094DD5F486870F7D7F1BA /* LoginFormView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF10676D2927F463E7E91540D21A11D7 /* LoginFormView-dummy.m */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BED5611856700024C3B6BDA38806C92 /* FBSnapshotTestController.m */; };
-		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D9982EBC9A6A60786935962A58A324E1 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE41BE2A951AAA2AFA8E19110F9E2A9 /* FBSnapshotTestCase.m */; };
-		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D768FD119E52E6722075A26AD98BB6C /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A641AAEE41BE2CC63A32D0BAB67EC72 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEBCEC6EBDDF225FE1FEC2123C0D344 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D67DD8092CC0CBE7E4208414CC17F77 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D32EE87674FB7742F60C8F08D221123 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD43EB6F08175E8364D93DE89E4F1623 /* SwiftSupport.swift */; };
-		A271B39EFB96C1AC89083542063CFAF8 /* LoginFormView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B993196518A4EC8B8961DFC00ED6E5C7 /* LoginFormView-dummy.m */; };
-		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 928B02F42DB1641757BB481565745FB3 /* View+MASAdditions.m */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 314F5C5C7A9EDD0C0716A8CD1FB620F8 /* UIImage+Snapshot.m */; };
-		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		A540BDE5FC07252F0A78ECC5983F8926 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E4361617DEAE780CFC3B3EF54D84AA /* TestView.m */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C659800879B63083DE392800723BE1 /* Foundation.framework */; };
+		B5089E6FF6EB8E9B649AC0B2E19F9570 /* TestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26EBA9DAE0D70D00ACEBB18BD735C5A4 /* TestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 30991CF355BBE584628FE40B9B0C066A /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 708FC20E70A5C162B340862E7114EE55 /* MASViewConstraint.m */; };
-		B9B756C192F8A1CF549D95BD38E5E977 /* LoginFormView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA9E42D64FF28B08878EFF027B315D5 /* LoginFormView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD9A8F72275AB20B0CCFEC76FDC4CE41 /* LoginFormView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC358432A1E8000942ACC9E411283667 /* LoginFormView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 006BB846173FC9353F087568260E494A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C439937A3A300187C9D458E049CD8551 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 76DDF08C39BD8CD5427671E45F4BAC20 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = B1441C3C961581D90ACDD3D1DE0328F1 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		CBAD89C9C8C0E24446467468E6502448 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CC279CEECA0C7336620CC664EF9F900C /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEEEADE1098E6F56ED3E407062D8C984 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C659800879B63083DE392800723BE1 /* Foundation.framework */; };
 		CF9801B06ABE0B0F23A79054A30FFBEE /* Pods-LoginFormView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB61E5DBED08DE8F7E40587CA1DF0F0 /* Pods-LoginFormView_Example-dummy.m */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = B40D7FC1575B809FD4FC34DD4ADBE81E /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8252146A9D99797754610803F220A731 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4C926FBDABA65167A05EF046153FF5B /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8252146A9D99797754610803F220A731 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D72A81D27FD40ED671BB4D74BBD4763B /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB92C40F45A891F20727C080472B2C76 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD42348C054F9210821A75FF6A75EB8E /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D86EA2AB4C2CAB5E1B88AD89CEF415 /* MASConstraint.m */; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9622FCB360DEC4256351F3BB2B53974E /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BDCEE34F34864FC3A8E1ED673D3E3A /* FBSnapshotTestCasePlatform.m */; };
-		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D86EA2AB4C2CAB5E1B88AD89CEF415 /* MASConstraint.m */; };
-		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 68EEB53888D9DC9DC5DF76F836F84C61 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E90585E882A1DA6BC161FDC63D351788 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D32EE87674FB7742F60C8F08D221123 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB4AB6EE35926A4CEFADC8FD8463C054 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 006BB846173FC9353F087568260E494A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		F081A8E3B25222B2DDED4CB8D723D332 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AC2D6ADE1E9CD6614AAD12383D072A /* Masonry-dummy.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FAE5C926DB40D236540453E01F6BFE /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F1F31754B8CB0782D6275062126431F1 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 928B02F42DB1641757BB481565745FB3 /* View+MASAdditions.m */; };
+		F3657DBA85D60D27A84EDD67C8BB735C /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF66FE785395C4D1DF40E16B498CF2C /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F59002424AAE32E8BEF328A80192FD16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C659800879B63083DE392800723BE1 /* Foundation.framework */; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43CC20AD4F902B45548B8D9BAD4B0C77 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 76DDF08C39BD8CD5427671E45F4BAC20 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFF21C3F4F8C2F7931519C0A83EDE6FC /* Pods-LoginFormView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE3BCCC92DF38BA95D2E7E814CA5C66 /* Pods-LoginFormView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -79,6 +83,13 @@
 			remoteInfo = LoginFormView;
 		};
 		6B4EA2A99AD8B27610F8AFABC708158C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		BB8EB3FEBF946EB0CCD8954BC0D342D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -106,110 +117,115 @@
 		02D0B131734D26DB5D5ACF1FAC08DD57 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		07532566793DFE8D7DB4017480857F81 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		11BDCEE34F34864FC3A8E1ED673D3E3A /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		1456CCF19325380C5B32E78DA9F09ED4 /* LoginFormView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoginFormView.h; sourceTree = "<group>"; };
+		1A7E8923EE1AFCF613F004F3150E5E8B /* LoginFormView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginFormView-prefix.pch"; sourceTree = "<group>"; };
 		1AE41BE2A951AAA2AFA8E19110F9E2A9 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		1B853CE2757FD35CF6DB144FD83AA3A7 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		1BD1C07DAA24E66D8F19284F51DD4C84 /* LoginFormView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LoginFormView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1D67DD8092CC0CBE7E4208414CC17F77 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		1FF66FE785395C4D1DF40E16B498CF2C /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		219F94665A774FB6E9A42313C65557FB /* Pods-LoginFormView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginFormView_Tests-dummy.m"; sourceTree = "<group>"; };
 		21CA44D923D80A9029EC2B58B31DA9C5 /* Pods-LoginFormView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginFormView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		24AC2D6ADE1E9CD6614AAD12383D072A /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		25B2DB49BDC40931AC8602AEEE5FC401 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		26EBA9DAE0D70D00ACEBB18BD735C5A4 /* TestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		30991CF355BBE584628FE40B9B0C066A /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		314F5C5C7A9EDD0C0716A8CD1FB620F8 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		36EE8B8BB5CFB179B4341911563BDB1B /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		3E1DF1791AD5AA72DFFD4CB94F5FA17F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		41FAE5C926DB40D236540453E01F6BFE /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		43CC20AD4F902B45548B8D9BAD4B0C77 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		48DC998C1ADA91F21F291A591DCD77C8 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		49E4361617DEAE780CFC3B3EF54D84AA /* TestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		4A641AAEE41BE2CC63A32D0BAB67EC72 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		4BED5611856700024C3B6BDA38806C92 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		538E7F5350A389FCCF481A6BC30E7F72 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		56FF8F828B8951867C20FC5F80024D66 /* LoginFormView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoginFormView-Info.plist"; sourceTree = "<group>"; };
+		571D18C2E4315CA0EE50281AEB95D9C8 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B12E4FB2E4A37F916AEA55B5EBD6859 /* Pods-LoginFormView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginFormView_Tests-Info.plist"; sourceTree = "<group>"; };
 		5BEFB81E5FEBA7CF147A23EF207CF0A9 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D32EE87674FB7742F60C8F08D221123 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		63A839FFC02C6E49FDC773C7E7FBA82D /* Pods_LoginFormView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoginFormView_Example.framework; path = "Pods-LoginFormView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E39BDADC3FA1D753C8387AA65B4D73 /* LoginFormView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoginFormView.framework; path = LoginFormView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EEB53888D9DC9DC5DF76F836F84C61 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		69475061BBF1D05E96B03AA848570292 /* Pods-LoginFormView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginFormView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7008DA1EBC7FB7F3D2EA4B3DA69F1A9E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		7023920364752171823BCCC35935B9A6 /* LoginFormView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoginFormView-Info.plist"; sourceTree = "<group>"; };
 		708FC20E70A5C162B340862E7114EE55 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		715C6EA125C5989AE7E784C322F959A0 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		71C17EEC81CA6EA4507350F059D58474 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		76B9175410197094EABEA30B3B1CBF98 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		76DDF08C39BD8CD5427671E45F4BAC20 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		78C43FB3EB5046CBB6DFC13074605633 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		80C4D9E0D37E5E59A9CE08B0709DD1F6 /* LoginFormView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginFormView.xcconfig; sourceTree = "<group>"; };
 		8252146A9D99797754610803F220A731 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		839AD81A9CC857BC4B3C67A612E4FA1F /* Pods-LoginFormView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginFormView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8AA8113778F4E1C9F619F8A0EA7B70ED /* Pods-LoginFormView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginFormView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8AD5C82799AB5A03561274DB41F07AC5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8BEBCEC6EBDDF225FE1FEC2123C0D344 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8D768FD119E52E6722075A26AD98BB6C /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		8EB61E5DBED08DE8F7E40587CA1DF0F0 /* Pods-LoginFormView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginFormView_Example-dummy.m"; sourceTree = "<group>"; };
-		8FA4F3D7141DD6042B9FC2FCFDE72D78 /* LoginFormView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoginFormView.m; path = LoginFormView/Classes/LoginFormView.m; sourceTree = "<group>"; };
 		928B02F42DB1641757BB481565745FB3 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		94076E5B47C7FE9E9FF4E5B0586E2221 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		94451514216018C16E3AF2F48DDBE55B /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		94C659800879B63083DE392800723BE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9622FCB360DEC4256351F3BB2B53974E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A081F942C2085E6848F402E5F78FE9FA /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		A53E89ED75D1BF89B5E42EB2A4ED2FDC /* LoginFormView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LoginFormView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB8870E6F9054E3828C40404BE44CF1D /* Pods-LoginFormView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginFormView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF10676D2927F463E7E91540D21A11D7 /* LoginFormView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginFormView-dummy.m"; sourceTree = "<group>"; };
+		B0D38EA4ECFC72A2B024846B41EB615D /* LoginFormView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginFormView.xcconfig; sourceTree = "<group>"; };
 		B0D6F7CD4E0A3BE7F99F5CDA6638F58C /* Pods-LoginFormView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoginFormView_Example.modulemap"; sourceTree = "<group>"; };
 		B1441C3C961581D90ACDD3D1DE0328F1 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		B310F054C4728ECC09CA13CEF0F5F0D4 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		B40D7FC1575B809FD4FC34DD4ADBE81E /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		B4D86EA2AB4C2CAB5E1B88AD89CEF415 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		B841D141C15F0D9220E11F05A13FBB63 /* Pods-LoginFormView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoginFormView_Tests.modulemap"; sourceTree = "<group>"; };
-		B993196518A4EC8B8961DFC00ED6E5C7 /* LoginFormView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginFormView-dummy.m"; sourceTree = "<group>"; };
-		BE516EBBF3F9CAF00030B9D8EA5A944A /* LoginFormView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginFormView-prefix.pch"; sourceTree = "<group>"; };
 		C14DC0AB109ACBEFEEA858FD26775100 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		C31B9C676E140EE59E62C9D0878E1343 /* Pods_LoginFormView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoginFormView_Tests.framework; path = "Pods-LoginFormView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56D9078204B2752922B4FC52C369A24 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		C7724D9BB5EAC090DCF3468FF6BEF246 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		C85BB3546757F6E5EEDD945A1E1F33C7 /* Pods-LoginFormView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginFormView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C99CBCC842005CF485C7845B9169BBB0 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		CB665C8EB403CDE507369F3F8156B0D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CB92C40F45A891F20727C080472B2C76 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		CC279CEECA0C7336620CC664EF9F900C /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		CF18DE736BA070A38DFECE8574A23F2F /* LoginFormView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoginFormView.m; sourceTree = "<group>"; };
 		D26E0542DACEF790346281E9B7E16B4E /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		D3506560D215AD8DD838672FCBEC1975 /* LoginFormView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginFormView-umbrella.h"; sourceTree = "<group>"; };
 		D9982EBC9A6A60786935962A58A324E1 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		D9E8665545FDEF846458058E0E0BD691 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		DB675965B0CB8B2AC2ADADCF181C7CBF /* Pods-LoginFormView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginFormView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DBCA8455C2E8F1FB375D98F4BD7B93D5 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		DC358432A1E8000942ACC9E411283667 /* LoginFormView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginFormView.h; path = LoginFormView/Classes/LoginFormView.h; sourceTree = "<group>"; };
 		DD0226B881DD9ABE4F60BCA78C48BFA9 /* Pods-LoginFormView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginFormView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DDE045E16493660ECF08D6AAE77D40E7 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		DEA24166C3BB6EF40F73A3BBEC5979EB /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		E06D537E2CBD26106F87CB1A4308B395 /* LoginFormView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoginFormView.modulemap; sourceTree = "<group>"; };
 		E76BF780C344403B030E82970999079B /* Pods-LoginFormView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginFormView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E7A0583DD0F9C4ED89EFCAB6AC5E6D8A /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		E99438BC59FA7C2B65D64F0A9DC9BFA8 /* LoginFormView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoginFormView.modulemap; sourceTree = "<group>"; };
 		EA6918AF9D97738B7253FB49B637E46A /* Pods-LoginFormView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginFormView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EC977B029FB79D68A83AE085DB46783A /* Pods-LoginFormView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginFormView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		EEA9E42D64FF28B08878EFF027B315D5 /* LoginFormView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginFormView-umbrella.h"; sourceTree = "<group>"; };
-		F1727CAA15AA80C8A2660D0E487CADBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F97E78723E4A79D531568A483B790652 /* Pods-LoginFormView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginFormView_Example-Info.plist"; sourceTree = "<group>"; };
 		FD43EB6F08175E8364D93DE89E4F1623 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		FFE3BCCC92DF38BA95D2E7E814CA5C66 /* Pods-LoginFormView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginFormView_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5527AADC49BEE6856AA245F4F72EE568 /* Frameworks */ = {
+		01BFC9E7FC286234320045AB7AB9DCCA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				691527B7B9E96ED84ACD90CEDA205DCC /* Foundation.framework in Frameworks */,
+				F59002424AAE32E8BEF328A80192FD16 /* Foundation.framework in Frameworks */,
+				0A69AA300802E95B58018C5BC05FA23C /* Masonry.framework in Frameworks */,
+				2B2DF25719462338975604B6E2CFBF7A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
+		2813656CB6768D439065C9680B584D1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */,
-				CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */,
+				CEEEADE1098E6F56ED3E407062D8C984 /* Foundation.framework in Frameworks */,
+				08F08FE71D8571D09299D206F541488C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,16 +259,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08655A5A66DA2927BCFB3F8A9497158A /* LoginFormView */ = {
+		0A69D9C488938BF9834D9E5257FB7931 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				DC358432A1E8000942ACC9E411283667 /* LoginFormView.h */,
-				8FA4F3D7141DD6042B9FC2FCFDE72D78 /* LoginFormView.m */,
-				BF354A01771C8BA8A9B2387FDCBCB533 /* Pod */,
-				2F7510396F97C832E260113C161E7DCC /* Support Files */,
+				1456CCF19325380C5B32E78DA9F09ED4 /* LoginFormView.h */,
+				CF18DE736BA070A38DFECE8574A23F2F /* LoginFormView.m */,
 			);
-			name = LoginFormView;
-			path = ../..;
+			name = Login;
+			path = LoginFormView/Classes/Login;
+			sourceTree = "<group>";
+		};
+		256656D4FEE053EBD6D4DE86ECB4CECE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E06D537E2CBD26106F87CB1A4308B395 /* LoginFormView.modulemap */,
+				B0D38EA4ECFC72A2B024846B41EB615D /* LoginFormView.xcconfig */,
+				AF10676D2927F463E7E91540D21A11D7 /* LoginFormView-dummy.m */,
+				56FF8F828B8951867C20FC5F80024D66 /* LoginFormView-Info.plist */,
+				1A7E8923EE1AFCF613F004F3150E5E8B /* LoginFormView-prefix.pch */,
+				D3506560D215AD8DD838672FCBEC1975 /* LoginFormView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LoginFormView";
+			sourceTree = "<group>";
+		};
+		259BA79A1126B5CEDE808CE53B8E4DE9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				94C659800879B63083DE392800723BE1 /* Foundation.framework */,
+				3E1DF1791AD5AA72DFFD4CB94F5FA17F /* QuartzCore.framework */,
+				9622FCB360DEC4256351F3BB2B53974E /* UIKit.framework */,
+				8AD5C82799AB5A03561274DB41F07AC5 /* XCTest.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		2CDBD0E0CEF7287139C16D33470059DA /* Core */ = {
@@ -276,24 +315,20 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		2F7510396F97C832E260113C161E7DCC /* Support Files */ = {
+		2E17D2DE27603C055EE9FD97C68FDDDB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E99438BC59FA7C2B65D64F0A9DC9BFA8 /* LoginFormView.modulemap */,
-				80C4D9E0D37E5E59A9CE08B0709DD1F6 /* LoginFormView.xcconfig */,
-				B993196518A4EC8B8961DFC00ED6E5C7 /* LoginFormView-dummy.m */,
-				7023920364752171823BCCC35935B9A6 /* LoginFormView-Info.plist */,
-				BE516EBBF3F9CAF00030B9D8EA5A944A /* LoginFormView-prefix.pch */,
-				EEA9E42D64FF28B08878EFF027B315D5 /* LoginFormView-umbrella.h */,
+				CB665C8EB403CDE507369F3F8156B0D2 /* LICENSE */,
+				1BD1C07DAA24E66D8F19284F51DD4C84 /* LoginFormView.podspec */,
+				94076E5B47C7FE9E9FF4E5B0586E2221 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LoginFormView";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		383C0C25A6E37003E13C024D3D48DB06 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				08655A5A66DA2927BCFB3F8A9497158A /* LoginFormView */,
+				5AEDC48F460F9CFF29DD07E3B203F225 /* LoginFormView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -341,6 +376,18 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		5AEDC48F460F9CFF29DD07E3B203F225 /* LoginFormView */ = {
+			isa = PBXGroup;
+			children = (
+				0A69D9C488938BF9834D9E5257FB7931 /* Login */,
+				2E17D2DE27603C055EE9FD97C68FDDDB /* Pod */,
+				256656D4FEE053EBD6D4DE86ECB4CECE /* Support Files */,
+				EE75DE61C63B1E8A7AB0634A5A5AD5B6 /* Test */,
+			);
+			name = LoginFormView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		5D814ACB0E3FC7836487780B823B6195 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -384,17 +431,6 @@
 			path = "Target Support Files/Pods-LoginFormView_Tests";
 			sourceTree = "<group>";
 		};
-		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
-				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
-				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
-				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		98D42043C02B0C7DDC83C69BCA250305 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -432,24 +468,6 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7DE5752EED0A4C4A430975244947611A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF354A01771C8BA8A9B2387FDCBCB533 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				25B2DB49BDC40931AC8602AEEE5FC401 /* LICENSE */,
-				A53E89ED75D1BF89B5E42EB2A4ED2FDC /* LoginFormView.podspec */,
-				F1727CAA15AA80C8A2660D0E487CADBC /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		C3A7FD38307320ED23C17A5F3129DFCE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -469,7 +487,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				383C0C25A6E37003E13C024D3D48DB06 /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E37236A997A0AFE3B3B04832A616C7CF /* Frameworks */,
 				4A62A50A353010EE22AD4E07C3F1E2CC /* Pods */,
 				98D42043C02B0C7DDC83C69BCA250305 /* Products */,
 				5D814ACB0E3FC7836487780B823B6195 /* Targets Support Files */,
@@ -484,9 +502,38 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
+		E37236A997A0AFE3B3B04832A616C7CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				571D18C2E4315CA0EE50281AEB95D9C8 /* Masonry.framework */,
+				259BA79A1126B5CEDE808CE53B8E4DE9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE75DE61C63B1E8A7AB0634A5A5AD5B6 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				26EBA9DAE0D70D00ACEBB18BD735C5A4 /* TestView.h */,
+				49E4361617DEAE780CFC3B3EF54D84AA /* TestView.m */,
+			);
+			name = Test;
+			path = LoginFormView/Classes/Test;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2D79121FCBA13E13FFDCD8596ACBDC82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D1178D901DE6B622D292E23F721D91 /* LoginFormView-umbrella.h in Headers */,
+				642A9D1297BE3FFE3B23B2BA232ADDD7 /* LoginFormView.h in Headers */,
+				B5089E6FF6EB8E9B649AC0B2E19F9570 /* TestView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -502,43 +549,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		48F00199DD0A355E969DD527C6D326BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C95A84917F601BF82E1B00A33557B5A /* MASCompositeConstraint.h in Headers */,
+				E90585E882A1DA6BC161FDC63D351788 /* MASConstraint+Private.h in Headers */,
+				4756D0AE4293F548104A85455B508BE9 /* MASConstraint.h in Headers */,
+				C439937A3A300187C9D458E049CD8551 /* MASConstraintMaker.h in Headers */,
+				3AAE505CDE02E1303CBD12E3900928BB /* MASLayoutConstraint.h in Headers */,
+				D72A81D27FD40ED671BB4D74BBD4763B /* Masonry-umbrella.h in Headers */,
+				4ED4B07224FC49CD31768FB48ABB30AB /* Masonry.h in Headers */,
+				414C574B0E5A0C5DB1D178F34FD3BF2D /* MASUtilities.h in Headers */,
+				83E959D996D86550D9EB19CEDBBF3117 /* MASViewAttribute.h in Headers */,
+				0EE1E8BCDCD454C0AC52F3DB82573CF0 /* MASViewConstraint.h in Headers */,
+				F3657DBA85D60D27A84EDD67C8BB735C /* NSArray+MASAdditions.h in Headers */,
+				37D61CCBF03276F6E3715375E9E2C558 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0612F86D64CB5E1AB24F2F82F8693F06 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				CBAD89C9C8C0E24446467468E6502448 /* View+MASAdditions.h in Headers */,
+				D4C926FBDABA65167A05EF046153FF5B /* View+MASShorthandAdditions.h in Headers */,
+				73BEA994575E73CD20DB9E293FB0628F /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		691BB3F5AAD0A3FD1EFEB41C0B30C8C4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FFF21C3F4F8C2F7931519C0A83EDE6FC /* Pods-LoginFormView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AE736B61D05BA2C161EFF0CD10AA264 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9B756C192F8A1CF549D95BD38E5E977 /* LoginFormView-umbrella.h in Headers */,
-				BD9A8F72275AB20B0CCFEC76FDC4CE41 /* LoginFormView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
-				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
-				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
-				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
-				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
-				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
-				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
-				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
-				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
-				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
-				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
-				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
-				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
-				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
-				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,12 +613,12 @@
 		};
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = D11E97840EEDD961319BFF9963680548 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
-				038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */,
-				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
-				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
+				48F00199DD0A355E969DD527C6D326BF /* Headers */,
+				62E3DD0A7DD9C47DA06DB03DC7B3B5D2 /* Sources */,
+				2813656CB6768D439065C9680B584D1C /* Frameworks */,
+				02E22FFF50263C0C710C8BA7C38D299E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -613,16 +651,17 @@
 		};
 		8DC19F5C7D9DCAC8798CB27612C68F1B /* LoginFormView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 180FCFAFE83B2C50741D848CA3C6B513 /* Build configuration list for PBXNativeTarget "LoginFormView" */;
+			buildConfigurationList = CE1347D780E4A4983C177550BCB300E3 /* Build configuration list for PBXNativeTarget "LoginFormView" */;
 			buildPhases = (
-				7AE736B61D05BA2C161EFF0CD10AA264 /* Headers */,
-				B1914A56D001E65C7568EF7482DA1956 /* Sources */,
-				5527AADC49BEE6856AA245F4F72EE568 /* Frameworks */,
-				428C0F023FD62F0A7E2E87E0A5D70463 /* Resources */,
+				2D79121FCBA13E13FFDCD8596ACBDC82 /* Headers */,
+				D5E8ACB02A9920A44A033CD98DB7E195 /* Sources */,
+				01BFC9E7FC286234320045AB7AB9DCCA /* Frameworks */,
+				52BDFAC9F638D31F2D106D3E58854DD3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				85CF88F41DDAC9CE8BA90274E19021C0 /* PBXTargetDependency */,
 			);
 			name = LoginFormView;
 			productName = LoginFormView;
@@ -678,7 +717,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		428C0F023FD62F0A7E2E87E0A5D70463 /* Resources */ = {
+		02E22FFF50263C0C710C8BA7C38D299E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BDFAC9F638D31F2D106D3E58854DD3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -706,31 +752,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */ = {
+		62E3DD0A7DD9C47DA06DB03DC7B3B5D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
-				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
-				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
-				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
-				1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */,
-				297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */,
-				B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */,
-				098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */,
-				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */,
-				0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */,
+				50644D2D9D28315325DD8FB53E9258C0 /* MASCompositeConstraint.m in Sources */,
+				DD42348C054F9210821A75FF6A75EB8E /* MASConstraint.m in Sources */,
+				55DECC4B0D78C8B4DFAC65931FA8C581 /* MASConstraintMaker.m in Sources */,
+				83043460C3755A7A8ED273540D901FDA /* MASLayoutConstraint.m in Sources */,
+				F081A8E3B25222B2DDED4CB8D723D332 /* Masonry-dummy.m in Sources */,
+				307535449B8565EB07191565B81082F9 /* MASViewAttribute.m in Sources */,
+				632D9E4E5BFE0858CA0EA04CF3443E52 /* MASViewConstraint.m in Sources */,
+				4B6903EF915342E4287EB45CA7972227 /* NSArray+MASAdditions.m in Sources */,
+				EB4AB6EE35926A4CEFADC8FD8463C054 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F1F31754B8CB0782D6275062126431F1 /* View+MASAdditions.m in Sources */,
+				7646BF81BA7D08CCF9290F118820247C /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,20 +789,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1914A56D001E65C7568EF7482DA1956 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A271B39EFB96C1AC89083542063CFAF8 /* LoginFormView-dummy.m in Sources */,
-				784DEC29DA8C4E2DF71EA172203071EC /* LoginFormView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B2867CAC1A2458F576E86D0D12624F5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CF9801B06ABE0B0F23A79054A30FFBEE /* Pods-LoginFormView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E8ACB02A9920A44A033CD98DB7E195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8758B0AA8F2094DD5F486870F7D7F1BA /* LoginFormView-dummy.m in Sources */,
+				700B9933C11135EFB4C7A44DE0D639EA /* LoginFormView.m in Sources */,
+				A540BDE5FC07252F0A78ECC5983F8926 /* TestView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,6 +830,12 @@
 			target = 8DC19F5C7D9DCAC8798CB27612C68F1B /* LoginFormView */;
 			targetProxy = 4FC63D03887709A899CC2B6C066EFC57 /* PBXContainerItemProxy */;
 		};
+		85CF88F41DDAC9CE8BA90274E19021C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = BB8EB3FEBF946EB0CCD8954BC0D342D5 /* PBXContainerItemProxy */;
+		};
 		AC3AAEF93D851C74ED3FDF8DCA0DED34 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
@@ -805,6 +851,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0E4170ED676C04E092C39F5074D5CAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B310F054C4728ECC09CA13CEF0F5F0D4 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		1203506935A57F2BAC11E4A681A1C2FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD0226B881DD9ABE4F60BCA78C48BFA9 /* Pods-LoginFormView_Tests.debug.xcconfig */;
@@ -837,6 +914,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		476483AE63AEDFFEDE813F7AE5A5E18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B310F054C4728ECC09CA13CEF0F5F0D4 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -898,38 +1007,6 @@
 			};
 			name = Release;
 		};
-		527D6664223B803E9C7307F58E3CA12A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B310F054C4728ECC09CA13CEF0F5F0D4 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5871193863241E7B2BDB6B5F42E26FEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA6918AF9D97738B7253FB49B637E46A /* Pods-LoginFormView_Tests.release.xcconfig */;
@@ -985,6 +1062,38 @@
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79DAE8A78D27B98BD7363118F7B4C445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D38EA4ECFC72A2B024846B41EB615D /* LoginFormView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LoginFormView/LoginFormView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LoginFormView/LoginFormView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LoginFormView/LoginFormView.modulemap";
+				PRODUCT_MODULE_NAME = LoginFormView;
+				PRODUCT_NAME = LoginFormView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1060,40 +1169,9 @@
 			};
 			name = Debug;
 		};
-		8C65F7CC9708EE0690525E4800598E8E /* Debug */ = {
+		E397CC815335A12FAA150DD93D2DAF1E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B310F054C4728ECC09CA13CEF0F5F0D4 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9CF2047CF14C70E042D765F79A631A53 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80C4D9E0D37E5E59A9CE08B0709DD1F6 /* LoginFormView.xcconfig */;
+			baseConfigurationReference = B0D38EA4ECFC72A2B024846B41EB615D /* LoginFormView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1121,38 +1199,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		D910D3131BE86ABAB25E754EEAB92923 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80C4D9E0D37E5E59A9CE08B0709DD1F6 /* LoginFormView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LoginFormView/LoginFormView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LoginFormView/LoginFormView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LoginFormView/LoginFormView.modulemap";
-				PRODUCT_MODULE_NAME = LoginFormView;
-				PRODUCT_NAME = LoginFormView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1255,15 +1301,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		180FCFAFE83B2C50741D848CA3C6B513 /* Build configuration list for PBXNativeTarget "LoginFormView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9CF2047CF14C70E042D765F79A631A53 /* Debug */,
-				D910D3131BE86ABAB25E754EEAB92923 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1282,15 +1319,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8C65F7CC9708EE0690525E4800598E8E /* Debug */,
-				527D6664223B803E9C7307F58E3CA12A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1305,6 +1333,24 @@
 			buildConfigurations = (
 				FB2B3519CCC5CA4F47FE48B62F56B179 /* Debug */,
 				FB51208C0B69C38474ED8BB4926B82BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1347D780E4A4983C177550BCB300E3 /* Build configuration list for PBXNativeTarget "LoginFormView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E397CC815335A12FAA150DD93D2DAF1E /* Debug */,
+				79DAE8A78D27B98BD7363118F7B4C445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D11E97840EEDD961319BFF9963680548 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4170ED676C04E092C39F5074D5CAF3 /* Debug */,
+				476483AE63AEDFFEDE813F7AE5A5E18C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
